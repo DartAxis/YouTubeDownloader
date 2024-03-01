@@ -112,6 +112,5 @@ btn2 = Button(root, text="Очистить", font=('Arial,10,bold'), bd=4, comma
 btn2.place(x=120, y=190)
 btn3 = Button(root, text=" Выход ", font=('Arial,10,bold'), bd=4, command=quiting)
 btn3.place(x=250, y=190)
-print(root.children)
 # запускаем окно
 root.mainloop()
